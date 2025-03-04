@@ -7,7 +7,7 @@ A sleek and modern weather application that allows you to view the current weath
 ## 🚀 Features
 
 - **Current Weather**: Displays the current weather of your selected city with temperature, humidity, wind speed, and more.
-- **5-Day Forecast**: View a detailed weather forecast for the next 5 days.
+- **8-Day Forecast**: View a detailed weather forecast for the next 5 days.
 - **Search Functionality**: Search weather by entering a city name.
 - **Favorites**: Add cities to your favorites for quick and easy access.
 - **Responsive Design**: Optimized layout for both desktop and mobile devices.
