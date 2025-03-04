@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #1E3C72, #2A5298); /* Modern blue gradient */
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  padding-top: 80px; /* To make room for the fixed header */
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif; /* or any other font you prefer */
+  color: #e0ecb7; /* A dark color for readability */
+  margin: 20px 0; /* Adds space above and below the heading */
+}
+
+h1 {
+  font-size: 2em;
+  color: #FFD700;
+  margin-top: 20px; /* Adds margin to separate from h5 */
+}
+
+h5 {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Font for the header */
+  background: linear-gradient(to right, #63bde7, #c3d280); /* Gradient background */
+  color: #FFFFFF; /* Solid color for the text */
+  text-align: center; /* Center the header */
+  margin: 0; /* Removes default margin */
+  font-size: 2.5em; /* Size of the h5 text */
+  
+  /* Fixed position for the header */
+  position: fixed;
+  top: 0; /* Stick to the top */
+  left: 0; /* Align to the left edge */
+  width: 100%; /* Make it span across the full width */
+  z-index: 1000; /* Ensure it stays on top of other content */
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual effect */
+}
+
+
+/* City Name (h1) */
+h1 {
+  margin-top: 100px; /* Add top margin to space out from the fixed header */
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Additional Styles for Search and Content */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 25px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-button {
+  background-color: #FFD700;
+  color: #1E3C72;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #FFC107;
+}
+
+/* Forecast Cards */
+.forecast-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Current Weather */
+.current-weather {
+  background: linear-gradient(to bottom, #4A90E2, #50C9C3); 
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.current-weather:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to bottom, #50C9C3, #4A90E2);
+}
+
+.current-weather h3 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.current-weather p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+/* Forecast Cards */
+.forecast-card {
+  background: linear-gradient(to bottom, #4A90E2, #50C9C3);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 18%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.forecast-card:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to bottom, #50C9C3, #4A90E2);
+}
+/* Weather Icon */
+.weather-icon {
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+  filter: none; /* No effect on other icons */
+}
