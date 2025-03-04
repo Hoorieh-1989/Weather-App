@@ -32,7 +32,7 @@ To run this project locally, follow these simple steps:
    ```bash
    git clone https://github.com/your-username/weather-app.git
 
-   cd weather-app
+   cd weatherapp
 npm install
 🌍 Set Up API Key
 To use the OpenWeather API, you'll need an API key:
