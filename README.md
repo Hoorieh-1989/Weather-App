@@ -2,7 +2,7 @@
 
 A sleek and modern weather application that allows you to view the current weather and forecast for any city of your choice. This app fetches real-time weather data from an API and displays it with an intuitive and clean design.
 
-![Weather App Banner]
+
 
 ## 🚀 Features
 
